@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+:root{
+    --primarycolor: white;
+    --primarycolorlight: #264fc9;
+    --secondarycolor: royalblue;
+
+}
+
+body{
+    background-color: var(--primarycolor);
+    font-family: 'Sansita Swashed', cursive;
+    color: var(--secondarycolor);
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--secondarycolor);
+    color: var(--primarycolor)
+}
+
+#nav_logo{
+    color: var(--primarycolor);
+    font-family: 'Sansita Swashed', cursive;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#nav_logo:hover{
+    color: var(--primarycolorlight);
+}
+
+nav a{
+    margin:0 2rem;
+    font-family: 'Sansita Swashed', cursive;
+    color: var(--textcolor);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--primarycolorlight);
+}
+
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--primarycolor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
