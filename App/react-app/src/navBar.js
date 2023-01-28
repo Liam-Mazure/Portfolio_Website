@@ -10,12 +10,12 @@ function Nav(){
 
     return(
         <div>
-            <a id = "nav_logo" href = "/home">Liam Mazure</a>
+            <a id = "nav_logo" href = "/Portfolio_Website/home">Liam Mazure</a>
             <nav ref = {navRef}>
-                <a href = "/home">Home</a>
-                <a href = "/aboutme">About Liam</a>
-                <a href = "/projects">Projects</a>
-                <a href = "/resume">Resume</a>
+                <a href = "/Portfolio_Website/home">Home</a>
+                <a href = "/Portfolio_Website/aboutme">About Liam</a>
+                <a href = "/Portfolio_Website/projects">Projects</a>
+                <a href = "/Portfolio_Website/resume">Resume</a>
                 <button className = "nav-btn nav-close-btn" onClick = {showNavBar}>
                     <FaTimes />
                 </button>

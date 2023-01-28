@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path = '/Portfolio_Website/aboutme' element = {<About/>} />
             <Route path = '/Portfolio_Website/main' element = {<Main/>} />
-            <Route path = '/' element = {<Main/>} />
+            <Route path = '/Portfolio_Website' element = {<Main/>} />
             <Route path = '/Portfolio_Website/projects' element = {<Projects/>} />
             <Route path = '/Portfolio_Website/resume' element = {<Resume/>} />
           </Routes>
