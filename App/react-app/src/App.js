@@ -16,11 +16,11 @@ function App() {
       <body>
         <BrowserRouter>
           <Routes>
-            <Route path = '/aboutme' element = {<About/>} />
-            <Route path = '/main' element = {<Main/>} />
+            <Route path = '/Portfolio_Website/aboutme' element = {<About/>} />
+            <Route path = '/Portfolio_Website/main' element = {<Main/>} />
             <Route path = '/' element = {<Main/>} />
-            <Route path = '/projects' element = {<Projects/>} />
-            <Route path = '/resume' element = {<Resume/>} />
+            <Route path = '/Portfolio_Website/projects' element = {<Projects/>} />
+            <Route path = '/Portfolio_Website/resume' element = {<Resume/>} />
           </Routes>
         </BrowserRouter>
       </body>
