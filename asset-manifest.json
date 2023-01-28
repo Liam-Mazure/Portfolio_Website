@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7BPortfolio_Website%7Dreact-gh-pages/static/css/main.38945356.css",
+    "main.js": "/%7BPortfolio_Website%7Dreact-gh-pages/static/js/main.07401b38.js",
+    "index.html": "/%7BPortfolio_Website%7Dreact-gh-pages/index.html",
+    "main.38945356.css.map": "/%7BPortfolio_Website%7Dreact-gh-pages/static/css/main.38945356.css.map",
+    "main.07401b38.js.map": "/%7BPortfolio_Website%7Dreact-gh-pages/static/js/main.07401b38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38945356.css",
+    "static/js/main.07401b38.js"
+  ]
+}
