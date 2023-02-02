@@ -12,10 +12,10 @@ function Nav(){
         <div>
             <a id = "nav_logo" href = "/Portfolio_Website/home">Liam Mazure</a>
             <nav ref = {navRef}>
-                <a href = "/Portfolio_Website/home">Home</a>
-                <a href = "/Portfolio_Website/aboutme">About Liam</a>
-                <a href = "/Portfolio_Website/projects">Projects</a>
-                <a href = "/Portfolio_Website/resume">Resume</a>
+                <a link = "/Portfolio_Website/home">Home</a>
+                <a link = "/Portfolio_Website/aboutme">About Liam</a>
+                <a link = "/Portfolio_Website/projects">Projects</a>
+                <a link = "/Portfolio_Website/resume">Resume</a>
                 <button className = "nav-btn nav-close-btn" onClick = {showNavBar}>
                     <FaTimes />
                 </button>
