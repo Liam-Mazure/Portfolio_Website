@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './app.css'
 import Navbar from './components/navagation'
 import MainPage from './pages/mainPage'
@@ -9,13 +9,13 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar/>
       <DustBackground/>
       <Routes>
         <Route path = '/' element = {<MainPage/>} exact/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

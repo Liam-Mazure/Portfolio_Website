@@ -1,5 +1,21 @@
 import {useEffect, useRef, useState} from "react";
 import p5 from "p5";
+import CSSLogo from "../assets/css-3.png";
+import HTMLLogo from "../assets/html-5.png";
+import JSLogo from "../assets/js.png";
+import TSLogo from "../assets/TypeScript.png";
+import ReactLogo from "../assets/reactLogo.png";
+import TailwindLogo from "../assets/TailwindCSS.png";
+import FigmaLogo from "../assets/Figma.png";
+import P5Logo from "../assets/p5JS.png";
+import DjangoLogo from "../assets/django.png";
+import SQLLogo from "../assets/sqlLogo.png";
+import NodeLogo from "../assets/nodejs.png";
+import ExpressLogo from "../assets/Express.png";
+import GitLogo from "../assets/git.png";
+import PythonLogo from "../assets/python.png";
+import UnityLogo from "../assets/unity.png";
+
 
 function LogoBackground(){
     const sketchRef = useRef();
@@ -75,16 +91,16 @@ function LogoBackground(){
                             <h2 className="text-neutral-300 text-shadow-blue-700 text-shadow-sm font-bold text-2xl self-center">Frontend</h2>
                             <div className="flex">
                                 <div className="flex flex-col">
-                                    <img src = "src/assets/css-3.png" alt = "CSS Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/html-5.png" alt = "HTML Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/js.png" alt = "JavaScript Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/TypeScript.png" alt = "TypeScript Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {CSSLogo} alt = "CSS Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {HTMLLogo} alt = "HTML Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {JSLogo} alt = "JavaScript Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {TSLogo} alt = "TypeScript Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
                                 </div>
                                 <div className="flex flex-col">
-                                    <img src = "src/assets/reactLogo.png" alt = "React Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/TailwindCSS.png" alt = "Tailwind Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/Figma.png" alt = "Figma Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                    <img src = "src/assets/p5JS.png" alt = "P5.js Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {ReactLogo} alt = "React Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {TailwindLogo} alt = "Tailwind Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {FigmaLogo} alt = "Figma Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                    <img src = {P5Logo} alt = "P5.js Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
                                 </div>
                             </div>
                             
@@ -93,18 +109,18 @@ function LogoBackground(){
                         <div className="absolute top-0 left-1/2 flex flex-col">
                             <h2 className=" text-neutral-300 text-shadow-blue-700 text-shadow-sm font-bold text-2xl">Backend</h2>
                             <div className="self-center">
-                                <img src = "src/assets/django.png" alt = "Django Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                <img src = "src/assets/sqlLogo.png" alt = "SQL Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                <img src = "src/assets/nodejs.png" alt = "Node.js Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                <img src = "src/assets/Express.png" alt = "Express Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {DjangoLogo} alt = "Django Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {SQLLogo} alt = "SQL Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {NodeLogo} alt = "Node.js Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {ExpressLogo} alt = "Express Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
                             </div>
                         </div>
                         <div className="absolute top-0 left-6/8 flex flex-col">
                             <h2 className=" text-neutral-300 text-shadow-blue-700 text-shadow-sm font-bold text-2xl">Other Technologies</h2>
                             <div className="self-center">
-                                <img src = "src/assets/git.png" alt = "Git Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                <img src = "src/assets/python.png" alt = "Python Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
-                                <img src = "src/assets/unity.png" alt = "Unity Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {GitLogo} alt = "Git Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {PythonLogo} alt = "Python Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
+                                <img src = {UnityLogo} alt = "Unity Logo" className=" bg-orange-400 border-2 border-blue-700 hover:border-white drop-shadow-lg drop-shadow-white hover:drop-shadow-blue-700 rounded-full h-20 w-20 p-2 m-3"></img>
                             </div>
                         </div>
                     </div>
@@ -122,6 +138,7 @@ function LogoBackground(){
                             <input className="accent-orange-400" id = "eraseOff" type="radio" value='Off' name="erase" checked={!eraseValue} onChange={() => setEraseValue(false)}></input>
                             <label for = 'eraseOff'>Off</label>
                         </form>
+                        <p className="flex font-bold text-neutral-300 text-shadow-orange-400 text-shadow-sm justify-start">Double Click Canvas-{'>'} Delete All</p>
                     </div>
                 </div>
             </>

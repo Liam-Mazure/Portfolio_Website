@@ -146,17 +146,17 @@ function ProjectBackground({title, text, img, video, className, link}){
     
     return(
         <>
-            <div className="relative text-blue-700 text-shadow-gray-800 text-shadow-sm h-auto overflow-hidden">
+            <div className="relative text-neutral-300 text-shadow-blue-700 text-shadow-sm h-auto overflow-hidden">
                 <div ref={sketchRef} className={`border-orange-400 border-2 overflow-hidden w-full md:w-3/4 h-screen rounded m-5 relative shadow-lg shadow-blue-700 ${className || ''}`}>
-                    <h1 className="absolute top-4 left-1/2 -translate-x-1/2 text-center font-bold sm:text-xl md:text-3xl lg:text-4xl px-4 text-shadow-sm text-shadow-orange-400 pointer-events-none">
+                    <h1 className="absolute top-4 left-1/2 -translate-x-1/2 text-center font-bold sm:text-xl md:text-3xl lg:text-4xl px-4 text-shadow-sm text-shadow-blue-700 pointer-events-none">
                         {projectTitle}
                     </h1>
-                    <div className="bg-gray-600/80 shadow-md border-2 border-orange-400 shadow-blue-700 absolute top-2/16 left-1/2 -translate-x-1/2 w-[75%] rounded pointer-events-none p-2 m-5">
+                    <div className="bg-neutral-800/60 shadow-md border-2 border-orange-400 shadow-blue-700 absolute top-2/16 left-1/2 -translate-x-1/2 w-[75%] rounded pointer-events-none p-4 m-5">
                         <p className="font-bold sm:text-base md:text-lg lg:text-xl leading-relaxed">
                             {projectText}
                         </p>
                         {link &&(
-                            <a href={link} className="text-orange-400 text-shadow-blue-700 text-shadow-sm pointer-events-auto rounded p-1 mb-6 hover:bg-orange-400 hover:shadow-white hover:shadow-md hover:border-2 hover:border-blue-700 hover:text-blue-700 hover:text-shadow-gray-800">Project Link</a>
+                            <a href={link} className="pointer-events-auto border-2 border-white bg-linear-60 from-orange-400 to-blue-700 rounded w-1/2 p-2 hover:from-blue-700 hover:to-orange-400 hover:font-bold shadow-sm shadow-orange-400 self-center focus:outline-blue-700">Project Link</a>
                         )}
                         {/* {projectImg &&(
                             <img className = "absolute opacity-50" src={img} alt="Project Image"></img>

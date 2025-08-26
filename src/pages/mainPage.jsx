@@ -7,6 +7,8 @@ import LogoBackground from "../components/techLogoBackground";
 import ContactForm from "../components/form";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import LiamHeadshot from "../assets/liam_wedding_headshot.jpg";
+import SpeechBubble from "../assets/pixel-speech-bubble.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -136,7 +138,7 @@ function MainPage(){
                 </div>
 
                 <div className="flex flex-col self-center w-1/2 h-auto">
-                    <img src="src/assets/liam_wedding_headshot.jpg" alt="Liam's Photo" className="bg-linear-65 from-blue-700 to-orange-400 p-2 rounded-2xl"></img>
+                    <img src= {LiamHeadshot} alt="Liam's Photo" className="bg-linear-65 from-blue-700 to-orange-400 p-2 rounded-2xl"></img>
                 </div>
 
             </div>
@@ -154,7 +156,7 @@ function MainPage(){
         
             <div id ="projects" className="overflow-auto">
                 <h1 className=" text-neutral-300 text-shadow-blue-700 text-shadow-sm font-bold text-4xl p-5">Projects</h1>
-                <img id = "bubble" src="src/assets/pixel-speech-bubble.png" alt="speech bubble" className="w-100 h-30"></img>
+                <img id = "bubble" src={SpeechBubble} alt="speech bubble" className="w-100 h-30"></img>
                 <div className="flex flex-col">
                     <ProjectBackground title = "Augmented Human Anatomy" 
                                     text = {[`As a part of my undergraduate capstone, I led a four-person team in enhancing an augmented reality anatomical modeling tool built with Unity and the Microsoft HoloLens.
@@ -163,7 +165,7 @@ function MainPage(){
                                             `As team lead, I coordinated task assignments, facilitated communication with our industry partner and faculty advisor, organized meetings and agendas, and kept the project on track for biweekly reviews. 
                                             This experience strengthened both my technical skills in AR development and my leadership abilities in guiding a collaborative, cross-functional team.`
                                         ]}
-                                    img = "src/assets/liam_wedding_headshot.jpg"
+                                    img = "img"
                                     className = "project1"
                     />
                     <ProjectBackground title = "Scavenger Hunt Web Application" 
@@ -183,7 +185,8 @@ function MainPage(){
                                             <br/>,<br/>,
                                             `From there, I developed a Django backend to deserialize and serve the question data, along with a React frontend to dynamically render categories, questions, and responses. 
                                             The result is a full-stack application that transforms decades of Jeopardy history into an interactive study experience, designed with scalability for future features like score tracking and multiplayer play.`
-                                        ]}  
+                                        ]}
+                                    link = "https://jeopardy-study-tool-frontend.onrender.com"
                                     img = "img"
                                     className = "project3"
                     />
