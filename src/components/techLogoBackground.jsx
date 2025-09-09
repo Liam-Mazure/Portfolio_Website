@@ -138,7 +138,7 @@ function LogoBackground(){
                             <input className="accent-orange-400" id = "eraseOff" type="radio" value='Off' name="erase" checked={!eraseValue} onChange={() => setEraseValue(false)}></input>
                             <label for = 'eraseOff'>Off</label>
                         </form>
-                        <p className="flex font-bold text-neutral-300 text-shadow-orange-400 text-shadow-sm justify-start">Double Click Canvas-{'>'} Delete All</p>
+                        <p className="flex font-bold text-white text-shadow-orange-400 text-shadow-sm justify-start">Double Click Canvas -{'>'} Delete All</p>
                     </div>
                 </div>
             </>

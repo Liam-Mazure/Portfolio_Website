@@ -166,6 +166,7 @@ function MainPage(){
                                             This experience strengthened both my technical skills in AR development and my leadership abilities in guiding a collaborative, cross-functional team.`
                                         ]}
                                     img = "img"
+                                    videoLink = "https://www.youtube.com/embed/dzr4PxkiGow?si=Gqgmxt2O-TOE6Eb5"
                                     className = "project1"
                     />
                     <ProjectBackground title = "Scavenger Hunt Web Application" 
@@ -174,7 +175,8 @@ function MainPage(){
                                             <br/>,<br/>,
                                             `Users can log in, create and share hunts, and play through others’ creations. Designed with modular components and RESTful API endpoints, the project is ready for future enhancements including hunt ratings, score tracking, and geolocation features via Google Maps API. 
                                             This project showcases my full-stack development skills, creative problem-solving, and ability to design user-focused applications from concept to completion.`
-                                        ]} 
+                                        ]}
+                                    codeLink = "https://github.com/Liam-Mazure/The_Hunt"
                                     img = "img"
                                     className = "project2"
                                     
@@ -186,7 +188,8 @@ function MainPage(){
                                             `From there, I developed a Django backend to deserialize and serve the question data, along with a React frontend to dynamically render categories, questions, and responses. 
                                             The result is a full-stack application that transforms decades of Jeopardy history into an interactive study experience, designed with scalability for future features like score tracking and multiplayer play.`
                                         ]}
-                                    link = "https://jeopardy-study-tool-frontend.onrender.com"
+                                    projLink = "https://jeopardy-study-tool-frontend.onrender.com"
+                                    codeLink = "https://github.com/Liam-Mazure/Jeopardy_Study_Tool"
                                     img = "img"
                                     className = "project3"
                     />
@@ -198,7 +201,8 @@ function MainPage(){
                                             <br/>,
                                             <br/>,
                                         ]}
-                                    link= "https://liam-mazure.github.io/Personal_Website/"
+                                    projLink= "https://liam-mazure.github.io/Personal_Website/"
+                                    codeLink = "https://github.com/Liam-Mazure/Personal_Website"
                                     img = "img"
                                     className = "project4"
                     />

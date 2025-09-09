@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import '../App.css';
 
 
-function ProjectBackground({title, text, img, video, className, link}){
+function ProjectBackground({title, text, img, video, className, projLink, codeLink, videoLink}){
     const sketchRef = useRef();
     const [scrollY, setScrollY] = useState(0);
     const [projectTitle, setProjectTitle] = useState(title)
@@ -152,11 +152,17 @@ function ProjectBackground({title, text, img, video, className, link}){
                         {projectTitle}
                     </h1>
                     <div className="bg-neutral-800/60 shadow-md border-2 border-orange-400 shadow-blue-700 absolute top-2/16 left-1/2 -translate-x-1/2 w-[75%] rounded pointer-events-none p-4 m-5">
-                        <p className="font-bold sm:text-base md:text-lg lg:text-xl leading-relaxed">
+                        <p className="font-bold sm:text-base md:text-lg lg:text-xl leading-relaxed m-2">
                             {projectText}
                         </p>
-                        {link &&(
-                            <a href={link} className="pointer-events-auto border-2 border-white bg-linear-60 from-orange-400 to-blue-700 rounded w-1/2 p-2 hover:from-blue-700 hover:to-orange-400 hover:font-bold shadow-sm shadow-orange-400 self-center focus:outline-blue-700">Project Link</a>
+                        {projLink &&(
+                            <a href={projLink} className="pointer-events-auto border-2 border-white bg-linear-60 from-orange-400 to-blue-700 rounded w-1/2 m-2 p-2 hover:from-blue-700 hover:to-orange-400 hover:font-bold shadow-sm shadow-orange-400 self-center focus:outline-blue-700">Project</a>
+                        )}
+                        {codeLink &&(
+                            <a href={codeLink} className="pointer-events-auto border-2 border-white bg-linear-60 from-orange-400 to-blue-700 rounded w-1/2 m-2 p-2 hover:from-blue-700 hover:to-orange-400 hover:font-bold shadow-sm shadow-orange-400 self-center focus:outline-blue-700">Code</a>
+                        )}
+                        {videoLink &&(
+                            <a href={videoLink} className="pointer-events-auto border-2 border-white bg-linear-60 from-orange-400 to-blue-700 rounded w-1/2 m-2 p-2 hover:from-blue-700 hover:to-orange-400 hover:font-bold shadow-sm shadow-orange-400 self-center focus:outline-blue-700">Video</a>
                         )}
                         {/* {projectImg &&(
                             <img className = "absolute opacity-50" src={img} alt="Project Image"></img>
