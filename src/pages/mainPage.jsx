@@ -117,7 +117,7 @@ function MainPage(){
 
                     <div className="flex justify-start">
                         <a href="https://www.linkedin.com/in/liam-mazure"><FontAwesomeIcon icon={faLinkedin} className="text-neutral-300 text-4xl hover:bg-linear-65 hover:from-blue-700 hover:to-orange-400 rounded-full p-2 hover:animate-spin"></FontAwesomeIcon></a>
-                        <a href="https://liam-mazure.github.io/Personal_Website/"><FontAwesomeIcon icon={faGithub} className="text-neutral-300 text-4xl hover:bg-linear-65 hover:from-blue-700 hover:to-orange-400 rounded-full p-2 hover:animate-spin"></FontAwesomeIcon></a>
+                        <a href="https://github.com/Liam-Mazure"><FontAwesomeIcon icon={faGithub} className="text-neutral-300 text-4xl hover:bg-linear-65 hover:from-blue-700 hover:to-orange-400 rounded-full p-2 hover:animate-spin"></FontAwesomeIcon></a>
                         <button className="text-neutral-300 text-3xl hover:bg-linear-65 hover:from-blue-700 hover:to-orange-400 rounded-full p-2 hover:animate-spin"><a href="src/assets/LiamMazure_Resume_S25.pdf">CV</a></button>
                     </div>
 
